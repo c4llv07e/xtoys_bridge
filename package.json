@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "main.mjs",
   "scripts": {
-    "run": "node main.mjs"
+    "server": "node websocket.mjs",
+    "client": "node webhook.mjs"
   },
   "author": "c4llv07e",
   "license": "MIT",
