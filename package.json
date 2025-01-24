@@ -1,0 +1,15 @@
+{
+  "name": "Xtoys_bridge",
+  "version": "1.0.0",
+  "main": "main.mjs",
+  "scripts": {
+    "run": "node main.mjs"
+  },
+  "author": "c4llv07e",
+  "license": "MIT",
+  "description": "Xtoys -> Buttplug.io device bridge",
+  "dependencies": {
+    "buttplug": "^3.2.2",
+    "ws": "^8.18.0"
+  }
+}
