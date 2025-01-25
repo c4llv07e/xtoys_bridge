@@ -27,8 +27,8 @@ client.addListener("deviceremoved", (device) => {
   console.log(`Device removed: ${device.name}`);
 });
 
-server.on('connection', (client) => {
-  client.on('message', (msg) => {
+server.on('connection', (connection) => {
+  connection.on('message', (msg) => {
     const command = JSON.parse(msg);
     const vibrate = command.vibrate;
     if (client.devices === undefined) return;
